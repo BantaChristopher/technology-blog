@@ -7,12 +7,16 @@ header, .blog:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
   text-decoration: none;
   font-size: 100%;
 }
 
 .no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+a:hover {
   color: #065b83;
   text-decoration: underline;
 }
@@ -73,4 +77,20 @@ label {
 
 .btn-primary:hover {
   background-color: #0056b3;
+}
+
+p {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+h3 {
+  padding-left: 10px;
+}
+
+p#commentUser {
+  border-top: solid 2px black;
+  width: 100%;
+  padding-top: 12px;
+  height: auto;
 }

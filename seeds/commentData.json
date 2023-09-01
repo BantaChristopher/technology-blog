@@ -1,7 +1,12 @@
 [
     {
       "blog_id": 1,
-      "text": "Test comment",
+      "text": "Wow I never thought about that!",
       "user_id": 1
+    },
+    {
+      "blog_id": 2,
+      "text": "Holy smokes you're right! Super insightful!",
+      "user_id": 2
     }
   ]

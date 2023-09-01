@@ -1,10 +1,8 @@
 <section class="card">
-  {{!-- < href="/blogs/{{id}}"> --}}
     <input type="hidden" value="{{id}}"/>
     <h3>{{name}}</h3>
-    <br>
     <p>{{description}}</p>
-    <p style="font-size: 12px">Posted By {{user.name}} On {{ format_date date_created}}</p>
+    <p style="font-size: 12px" id="commentUser">Posted By {{user.name}} On {{ format_date date_created}}</p>
 </section>
 
 {{#if logged_in}}
@@ -16,7 +14,7 @@
   </div>
 </form>
 {{else}}
-<a href="/login" style="text-align: center; display: block">Login here to add your comment.</a>
+<a href="/login" style="text-align: center; display: block">Login to add a comment.</a>
 {{/if}}
 
 <h2>Comments</h2>
@@ -24,7 +22,7 @@
   {{#each comments as |comment|}}
 <section class="card">
   <p>{{comment.text}}</p>
-  <p style="font-size: 12px">Posted by {{comment.user.name}} On {{format_date date_created}}</p>
+  <p style="font-size: 12px" id="commentUser">Posted by {{comment.user.name}} On {{format_date date_created}}</p>
 </section>
   {{/each}}
 

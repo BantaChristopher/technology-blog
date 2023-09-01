@@ -1,10 +1,10 @@
 [
     {
-      "name": "Why MVC is so important",
-      "description": "MVC allows developers to maintain a true separation of concerns, devising their code between the Model layer for data, the View layer for design, and the Controller layer for application logic."
+      "name": "Why Justin Fields is better than Jordan Love",
+      "description": "The Green Bay Packers dont deserve another franchise quartback. They just dont, plus he cant throw. Boo."
     },
     {
-      "name": "Authentication vs. Authorization",
-      "description": "There is a difference between authentication and authorization. Authentication means confirming your own identity, whereas authorization means being allowed access to the system."
+      "name": "Full Stack Development",
+      "description": "It really is quite a good amount of work but I thouroughly enjoy it. Huh, who wouldve thought!"
     }
   ]
